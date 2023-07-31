@@ -14,7 +14,6 @@ public class Ravenclaw extends hogwarts{
     public int getWitty() {
         return witty;
     }
-
     public Ravenclaw(String name, int magicPower, int transgressionDistance, int smart, int wise, int witty) {
         super(name, magicPower, transgressionDistance);
         this.smart = smart;

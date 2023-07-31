@@ -21,7 +21,6 @@ public class Slytherin extends hogwarts {
         this.determination = determination;
         this.ambition = ambition;
     }
-
     private int getSlytherinTotalPower() {
         return cunning + determination + ambition;
     }

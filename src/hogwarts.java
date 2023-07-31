@@ -7,7 +7,6 @@ public class hogwarts {
     public String getName() {
         return name;
     }
-
     public int getMagicPower() {
         return magicPower;
     }
