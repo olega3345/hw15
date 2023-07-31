@@ -25,9 +25,9 @@ public class Ravenclaw extends hogwarts{
     }
     public void RavebclawComareTo(Ravenclaw other) {
         if (other.getRavenclawTotalPower() < this.getRavenclawTotalPower()) {
-            System.out.println(this.getName() + "лучший когтевранец чем" + other.getName());
+            System.out.println(this.getName() + " лучший когтевранец, чем " + other.getName());
         } else if (other.getRavenclawTotalPower() > this.getRavenclawTotalPower()) {
-            System.out.println(other.getName() + "лучший когтевранец чем" + this.getName());
+            System.out.println(other.getName() + " лучший когтевранец, чем " + this.getName());
         } else {
             System.out.println("Ученики равны по силе");
         }

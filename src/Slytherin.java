@@ -26,9 +26,9 @@ public class Slytherin extends hogwarts {
     }
     public void SlytherinComareTo(Slytherin other) {
         if (other.getSlytherinTotalPower() < this.getSlytherinTotalPower()) {
-            System.out.println(this.getName() + "лучший слизеринец чем" + other.getName());
+            System.out.println(this.getName() + " лучший слизеринец, чем " + other.getName());
         } else if (other.getSlytherinTotalPower() > this.getSlytherinTotalPower()) {
-            System.out.println(other.getName() + "лучший слизеринец чем" + this.getName());
+            System.out.println(other.getName() + " лучший слизеринец, чем " + this.getName());
         } else {
             System.out.println("Ученики равны по силе");
         }

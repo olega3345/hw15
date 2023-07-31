@@ -23,9 +23,9 @@ public class Gryffindor extends hogwarts {
     }
     public void GryffindorComareTo(Gryffindor other) {
         if (other.getGryffindorTotalPower() < this.getGryffindorTotalPower()) {
-            System.out.println(this.getName() + "лучший гриффиндорец чем" + other.getName());
+            System.out.println(this.getName() + " лучший гриффиндорец, чем " + other.getName());
         } else if (other.getGryffindorTotalPower() > this.getGryffindorTotalPower()) {
-            System.out.println(other.getName() + "лучший гриффиндорец чем" + this.getName());
+            System.out.println(other.getName() + " лучший гриффиндорец, чем " + this.getName());
         } else {
             System.out.println("Ученики равны по силе");
         }
