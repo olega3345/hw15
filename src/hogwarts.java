@@ -7,7 +7,6 @@ public class hogwarts {
     public String getName() {
         return name;
     }
-
     public int getMagicPower() {
         return magicPower;
     }
@@ -24,9 +23,9 @@ public class hogwarts {
     }
     public void comareTo(hogwarts other) {
         if (other.getTotalPower() < this.getTotalPower()) {
-            System.out.println(this.getName() + " Обладает бОльшей мощностью магии чем " + other.getName());
+            System.out.println(this.getName() + " Обладает бОльшей мощностью магии, чем " + other.getName());
         } else if (other.getTotalPower() > this.getTotalPower()) {
-            System.out.println(other.getName() + "Обладает бОльшей мощностью магии чем" + this.getName());
+            System.out.println(other.getName() + " Обладает бОльшей мощностью магии, чем " + this.getName());
         } else {
             System.out.println("Ученики равны по силе");
         }

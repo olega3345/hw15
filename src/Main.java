@@ -10,7 +10,7 @@ public class Main {
         Slytherin dracoMalfoy = new Slytherin("Draco Malfoy", 34, 68, 58, 71, 43);
         Slytherin grahamMontague = new Slytherin("Graham Montague", 65, 56, 83, 32, 69);
         Slytherin gregoryGoyle = new Slytherin("Gregory Goyle", 96, 56, 45, 32, 56);
-        Ravenclaw choChang = new Ravenclaw("Cho Chang", 16, 11, 12, 16, 17);
+        Ravenclaw choChang = new Ravenclaw("Cho Chang", 36, 11, 12, 16, 17);
         Ravenclaw padmaPatil = new Ravenclaw("Padma Patil", 10, 19, 6, 9, 12);
         Ravenclaw marcusBelby = new Ravenclaw("Marcus Belby", 14, 7, 8, 10, 9);
         harryPotter.comareTo(dracoMalfoy);

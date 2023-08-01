@@ -14,7 +14,6 @@ public class Ravenclaw extends hogwarts{
     public int getWitty() {
         return witty;
     }
-
     public Ravenclaw(String name, int magicPower, int transgressionDistance, int smart, int wise, int witty) {
         super(name, magicPower, transgressionDistance);
         this.smart = smart;
@@ -26,9 +25,9 @@ public class Ravenclaw extends hogwarts{
     }
     public void RavebclawComareTo(Ravenclaw other) {
         if (other.getRavenclawTotalPower() < this.getRavenclawTotalPower()) {
-            System.out.println(this.getName() + "лучший когтевранец чем" + other.getName());
+            System.out.println(this.getName() + " лучший когтевранец, чем " + other.getName());
         } else if (other.getRavenclawTotalPower() > this.getRavenclawTotalPower()) {
-            System.out.println(other.getName() + "лучший когтевранец чем" + this.getName());
+            System.out.println(other.getName() + " лучший когтевранец, чем " + this.getName());
         } else {
             System.out.println("Ученики равны по силе");
         }
